@@ -20,11 +20,13 @@
     bottom: 0;
     width: 80px;
     animation: pipe-animation 1.5s infinite linear;
+    filter: drop-shadow(50px 10px 1px #00000040)
 }
 .super-mario{
     width: 150px;
     position: absolute;
     bottom: 0;
+    filter: drop-shadow(50px 10px 1px #00000040)
 }
 
 .jump-mario{
@@ -35,6 +37,7 @@
     position: absolute;
     width: 550px;
     animation: clouds-animation 20s infinite linear;
+    filter: drop-shadow(50px 100px 1px #00000040)
 }
 
 
@@ -52,6 +55,8 @@
     color: red;
     font-size: 90px;
     font-family: "Press Start 2P", "Times New Roman";
+    -webkit-text-stroke: 3px black;
+    text-shadow: 50px 30px 2px #00000040;
     
 }
 .none{
@@ -67,7 +72,7 @@
     height: 120px;
     font-size: 50px;
     color: rgb(24, 174, 24);
-    box-shadow: 5px 5px 10px 0px rgb(24, 174, 24);
+    
     border-radius: 19px;
     border: 1px solid white;
     transition:all 1s ease;
@@ -87,6 +92,7 @@
     color: white;
     border: 1px solid rgb(24, 174, 24);
     cursor: pointer;
+    box-shadow: 20px 20px 20px 0px #00000040;
     
 }
 
