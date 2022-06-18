@@ -24,6 +24,9 @@ const loopGame = setInterval(() =>{
     mario.src = "./images/mario-game-over.png"
     mario.style.width = "75px";
     mario.style.marginLeft ="45px";
+
+    const gameOverMsg = document.querySelector(".game-over");
+    gameOverMsg.classList.remove("none");
     
         
     clearInterval(loopGame)
