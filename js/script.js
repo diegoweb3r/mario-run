@@ -33,12 +33,10 @@ const loopGame = setInterval(() =>{
     }
 }, 10);
 
-
 const restart = document.querySelector(".restart-button")
 restart.addEventListener("click", function(){
     location.reload();
 });
-
 
 
 document.addEventListener("keydown", jump);
